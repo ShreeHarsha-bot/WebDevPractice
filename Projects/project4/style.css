@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(182, 178, 178, 0.534);
+}
+div{
+    
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    font-size: 13px;
+border-radius: 15px;
+margin-top: 70px;
+margin-left: 550px;
+}
+img{
+    padding: 10px 10px 10px 12px;
+    border-radius: 32px;
+    position: relative;
+    
+}
+h1{
+text-align: center;
+}
+.btn1{
+    margin-left: 50px;
+    margin-right: 10px;
+    background-color: rgba(165, 42, 42, 0.527);
+    border-radius: 10px;
+    cursor:pointer;
+}
+.btn2{
+    margin-left: 50px;
+    margin-right: 10px;
+    background-color: rgba(165, 42, 42, 0.527);
+    border-radius: 10px;
+    cursor:pointer;
+}
+.btn3{
+    margin-left: 110px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor:pointer;
+    color: rgba(24, 24, 126, 0.5);
+}
+h3{
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: start;
+    
+}
