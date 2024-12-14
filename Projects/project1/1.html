@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="1.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Payment Form</h1>
+    <hr>
+    <p>
+      <label for="Name">Name</label>
+      <input type="text" name="name" id="name" placeholder="ex:Shree Harsha">
+    </p>
+    <fieldset>
+      <legend>Gender</legend>
+      <input type="radio" name="gender" id="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female">
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other">
+      <label for="other">Other</label>
+    </fieldset>
+    <p>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" placeholder="ex:harsha18@gmail.com">
+    </p>
+    <p>
+      <label for="phone">Phone No</label>
+      <input type="number" name="number" id="phone" placeholder="10 digit number">
+    </p>
+    <p>
+      <label for="address">Address</label>
+      <textarea name="address" id="address" placeholder="Enter your Address here"></textarea>
+    </p>
+    <p>
+      Pincode:
+      <input type="number" name="pincode" id="pincode" placeholder="637636">
+    </p>
+    <hr>
+    <h1>Payment Information</h1>
+    <p>
+      Card Type:
+      <select name="card" id="card">
+        <option value="dv">--Select Card type--</option>
+        <option value="visa">Visa</option>
+        <option value="mastercard">Master Card</option>
+        <option value="creditcard">Credit card</option>
+        <option value="debitcard">Debit Card</option>
+        <option value="rupay">Rupay</option>
+      </select>
+    </p>
+    <p>
+      Card Number:
+      <input type="number" name="Cardno" id="cardno" placeholder="1111-22222-3333-4444">
+    </p>
+    <p>
+      Valid Date:
+      <input type="date" name="expiration_date" id="valid">
+    </p>
+    <p>
+      CVV:
+      <input type="number" name="last" id="last" placeholder="ex:156">
+    </p>
+    <p id="button">
+      <button>Pay Now</button>or
+      <button>QR code</button>
+    </p>
+    <hr>
+  </div>
+</body>
+
+</html>
